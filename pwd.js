@@ -1,4 +1,4 @@
-module.exports = function()
+module.exports = function(done)
 {
-    process.stdout.write(process.cwd());
+    done(process.cwd());
 }
